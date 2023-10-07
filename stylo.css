@@ -1,0 +1,117 @@
+    body{
+    color: white;
+    background-color: black ;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    ul{
+       display: flex; 
+       justify-content: space-between;
+       list-style-type: none;
+       align-items: center;
+       padding: 16px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    header img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid hsl(0, 0%, 5%);
+    }
+    .center{
+        text-align: center;
+    }
+    h1{
+        color: #990bb6;
+        text-align: center;
+        font-size: 40px;
+    }
+     footer img {
+        width: 40px;
+        height: 40px;
+
+        }
+    footer{
+        display:flex;
+        justify-content: center;
+    }
+
+    footer a {
+        margin: 20px;
+        text-align: center;
+    }
+    footer p {
+        margin-top: 2px ;
+    }
+    .container{
+        padding: 0px 50px;
+    } 
+    nav a:hover {
+        color:#990bb6;
+    }
+    @keyframes inicializar {
+        from{
+            opacity: 0;
+            transform: translate3d(0,   -60px,  0);
+        }
+        to{
+           opacity: 1; 
+           transform: translate3d(0, 0, 0);
+        }
+
+    }
+from{
+    opacity: 1;
+}
+to{
+    opacity: 0;
+}
+
+    h3{
+text-align: center;
+font-size: 30px;
+color: #990bb6;
+    }
+    p{
+    text-align: center;
+        font-size: 20px;
+        color: #990bb6;
+    }
+    h2{
+        font-size: 40px;
+        text-align: center;
+        color: #990bb6;
+    
+    }
+ #paragrafo {
+        color: rgb(159, 198, 243);
+        text-align: center;
+        font-size: 80%;
+        padding:16%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0%;
+
+        
+
+        }
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    
+
+    
+
+        
+    

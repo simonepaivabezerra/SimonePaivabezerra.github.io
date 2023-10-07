@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+        color: rgb(8, 8, 8);
+height: 1px;
+text-align: center;
+font-size: 24px;
+background-color:#990bb6;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+h1{
+    background: center;
+color: rgba(20, 19, 20, 0.856);
+}
+.titulo {
+color: rgb(34, 3, 63);
+text-align: center;
+}
+h3{
+color: rgb(3, 3, 3);
+}
+input{
+    background-color: rgb(33, 15, 49);
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: #e9d3ee;
+    transition: all 0 2s ease;
+    margin:5px ;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    
+
+    }
